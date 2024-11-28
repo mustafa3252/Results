@@ -3,7 +3,7 @@
 This repository contains the source code and experimental results for automated test generation using EvoSuite on two Java programs: `Triangle.java` and `SortHeap.java`. The experiments evaluate the impact of different search algorithms on the effectiveness of test generation, focusing on branch coverage and test suite quality.
 
 ## Repository Structure
-
+```
 ├── README.md
 ├── results
 │   ├── heapsort
@@ -51,7 +51,7 @@ This repository contains the source code and experimental results for automated 
         ├── Triangle.java
         ├── evosuite-master-1.2.1-SNAPSHOT.jar
         └── run_evosuite.sh
-
+```
 ## Contents
 
 The `results/` directory contains the experimental results for each program and search algorithm.
