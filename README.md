@@ -6,7 +6,7 @@ This repository contains the source code and experimental results for automated 
 ```
 ├── README.md
 ├── results
-│   ├── Algorithm_Comparison_Statistics
+│   ├── Algorithm_Comparison_Statistics.csv
 │   ├── heapsort
 │   │   ├── statistics.csv
 │   │   ├── generated_tests
