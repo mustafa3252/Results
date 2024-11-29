@@ -5,8 +5,8 @@ This repository contains the source code and experimental results for automated 
 ## Repository Structure
 ```
 ├── README.md
-├── Algorithm_Comparison_Statistics
 ├── results
+│   ├── Algorithm_Comparison_Statistics
 │   ├── heapsort
 │   │   ├── statistics.csv
 │   │   ├── generated_tests

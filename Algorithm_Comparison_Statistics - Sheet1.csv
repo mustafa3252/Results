@@ -1,0 +1,47 @@
+Triangle,,,,
+,Algorithm,Metric,Average,Standard Deviation
+,RANDOM_SEARCH,Coverage,0.98889,0.01619
+,,Total_Goals,18,0
+,,Covered_Goals,17.9,0.32
+,,Size,5.9,0.32
+,,Length,5.9,0.32
+,,MutationScore (%),71.55,4.36
+,,Test Generation Time (seconds),33,21.93
+,STANDARD_GA,Coverage,0.76296,0.17448
+,,Total_Goals,18,0
+,,Covered_Goals,13.6,3.73
+,,Size,4.1,0.88
+,,Length,4.1,0.88
+,,MutationScore (%),45.87,21.26
+,,Test Generation Time (seconds),51.4,6.11
+,DYNAMOSA,Coverage,0.98519,0.03647
+,,Total_Goals,18,0
+,,Covered_Goals,17.85,0.37
+,,Size,5.9,0.37
+,,Length,5.9,0.37
+,,MutationScore (%),70.92,3.15
+,,Test Generation Time (seconds),42.1,17.21
+,,,,
+Heapsort,,,,
+,Algorithm,Metric,Average,Standard Deviation
+,RANDOM_SEARCH,Coverage,1,0
+,,Total_Goals,21,0
+,,Covered_Goals,21,0
+,,Size,3.3,0.48
+,,Length,20.7,5.12
+,,MutationScore (%),33.6,6.97
+,,Test Generation Time (seconds),5.6,2.62
+,ONE_PLUS_ONE_EA,Coverage,0.85,0.37
+,,Total_Goals,21,0
+,,Covered_Goals,17.85,9.27
+,,Size,3.05,1
+,,Length,18.7,7.34
+,,MutationScore (%),30.8,8.12
+,,Test Generation Time (seconds),26.1,23.83
+,NSGAII,Coverage,1,0
+,,Total_Goals,21,0
+,,Covered_Goals,21,0
+,,Size,3.4,0.51
+,,Length,23.5,5.38
+,,MutationScore (%),33.4,4.7
+,,Test Generation Time (seconds),14.1,9.19
