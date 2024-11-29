@@ -1,5 +1,21 @@
 #!/bin/bash
 
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk/
+export PATH=$JAVA_HOME/bin:$PATH
+
+# Verify the Java version being used
+echo "Using Java version:"
+java -version
+
+# Compile the Java files
+echo "Compiling Java files..."
+javac *.java
+if [ $? -ne 0 ]; then
+    echo "Compilation failed."
+    exit 1
+fi
+echo "Compilation successful."
+
 # Variables
 CLASS_NAME="SortHeap" # Fully qualified class name
 PROJECT_DIR="."       # Directory containing compiled class files
